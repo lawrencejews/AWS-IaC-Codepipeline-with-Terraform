@@ -16,3 +16,4 @@ Deployment to different environments requires merging all the `.auto.tfvars` fil
 - Pass the `.tfvars` file `-var-file` argument to `terraform apply` for each environment -> `terraform apply -input=false -var-file=dev.tfvars -auto-approve `
 #### Store Secrets
 - Navigate to `AWS Systems Manager` -> Application tools then select `Parameter Store` to create secret variables
+- Create a `GetParameter` access in `AWS IAM` for CodeBuild service role build project

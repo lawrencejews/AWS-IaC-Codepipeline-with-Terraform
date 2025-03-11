@@ -1,5 +1,5 @@
 # Environment
-environment = "dev"
+environment = "development"
 # VPC Variables
 vpc_name = "myvpc"
 vpc_cidr_block = "10.0.0.0/16"
@@ -18,4 +18,4 @@ instance_keypair = "cfn-key-1"
 private_instance_count = 2
 
 # DNS Name
-# dns_name = "YOUR DNS NAME"
+dns_name = "development.lubdevops.pro"
