@@ -1,7 +1,7 @@
 # Terraform AWS Application Load Balancer (ALB)
 module "alb" {
   source  = "terraform-aws-modules/alb/aws"
-  version = "9.14.0" 
+  version = "6.0.0" 
 
   name = "${local.name}-alb"
   load_balancer_type = "application"
