@@ -7,8 +7,8 @@ module "acm" {
   zone_id     = data.aws_route53_zone.mydomain.zone_id
 
   subject_alternative_names = [
-    "*.lubdevops.pro"    # -> Referencing one DNS NAME
-    #var.dns_name
+    #"*.lubdevops.pro"    # -> Referencing one DNS NAME
+    var.dns_name
   ]
   tags = local.common_tags
 }
