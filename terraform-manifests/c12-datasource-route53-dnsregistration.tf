@@ -3,7 +3,6 @@ data "aws_route53_zone" "mydomain" {
   name         = "lubdevops.pro"
 }
 
-
 # Output MyDomain Zone ID
 output "mydomain_zoneid" {
   description = "The Hosted Zone id of the desired Hosted Zone"
