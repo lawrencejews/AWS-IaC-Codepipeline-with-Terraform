@@ -14,7 +14,9 @@ module "acm" {
 }
 
 # Output ACM Certificate ARN
-output "this_acm_certificate_arn" {
+output "acm_certificate_arn" {
   description = "The ARN of the certificate"
+              # = module.acm.this_acm_certificate_arn
   value       = module.acm.acm_certificate_arn
+              
 }

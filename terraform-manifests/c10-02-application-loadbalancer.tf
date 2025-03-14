@@ -44,7 +44,6 @@ module "alb" {
         matcher             = "200-399"
       }
       protocol_version = "HTTP1"
-     
     },  
   ]
 
@@ -84,3 +83,5 @@ module "alb" {
   ]
   tags = local.common_tags # ALB Tags
 }
+
+
