@@ -19,4 +19,4 @@ Deployment to different environments requires merging all the `.auto.tfvars` fil
 - Create a `GetParameter` access in `AWS IAM` for CodeBuild service role build project
 #### AWS Hosted Zones
 - Create AWS hosted zones for your domain name on AWS` -> Records servers = NS`
-- Copy the `NS` from `AWS` to the `Cheapname Domain platform` as `Host Records`
+- Copy the `NS` from `AWS` to the `Cheapname Domain platform` as `Host Records` -> `Custom DNS`
